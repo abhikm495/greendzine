@@ -1,0 +1,80 @@
+.container {
+  background: linear-gradient(#000000, #000e09);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
+
+.container input {
+  width: 238px;
+  height: 42px;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f191966;
+  color: #ffffff;
+  box-shadow: inset 0 0 10px #fffdfd40;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.container input {
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  width: 238px;
+  height: 30px;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+.container button {
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  color: #ffffff8c;
+
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+  mix-blend-mode: normal;
+  opacity: 1;
+  width: 238px;
+  height: 42px;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+@media only screen and (max-width: 412px) {
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+
+  .form-container {
+    max-width: 300px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+
+  .container {
+    max-width: 280px;
+  }
+}

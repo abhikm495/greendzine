@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+body,
+html {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(#000000, #000e09);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff; /* Text color set to white for contrast */
+}

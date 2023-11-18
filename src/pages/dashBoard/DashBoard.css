@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap");
+
+.container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.top-right-img {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  margin-right: 10px;
+}
+
+.container {
+  position: relative;
+  margin-top: 50px;
+}
+
+.employee-dashboard {
+  background: #1a2c2c99 0% 0% no-repeat padding-box;
+  font: normal normal bold 18px/25px Source Sans Pro;
+  min-width: 300px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  opacity: 0.84;
+  height: 56px;
+}
+
+.header {
+  position: relative;
+}
+
+.icon {
+  width: 181px;
+  height: 61px;
+}
+
+p {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: bold;
+  color: #ffffffb3;
+}
+
+.header-length {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: -20px;
+  right: -5px;
+  background-color: rgb(94, 94, 94, 0.2);
+  color: #36a546;
+  padding: 5px;
+  border-radius: 50%;
+}

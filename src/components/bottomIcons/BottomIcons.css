@@ -1,0 +1,30 @@
+.bottom-icons {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent linear-gradient(262deg, #0f2323 0%, #0f2323 40%) 0% 0%
+    no-repeat padding-box;
+  border: 1px solid #0f2323;
+  padding: 10px;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+  height: 2.5rem;
+}
+.icon {
+  min-height: 200px;
+  min-width: 200px;
+  cursor: pointer;
+}
+.home:hover {
+  background-color: #38383885;
+  filter: blur(1px);
+  border-radius: 20px;
+}
+.user:hover {
+  background-color: #38383885;
+  filter: blur(1px);
+  border-radius: 20px;
+}
