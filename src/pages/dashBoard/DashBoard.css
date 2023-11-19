@@ -7,9 +7,14 @@
 
 .top-right-img {
   position: absolute;
-  top: 40px;
+  top: -30px;
   right: 0;
   margin-right: 10px;
+}
+
+.container {
+  position: relative;
+  margin-top: 50px;
 }
 
 .employee-dashboard {
