@@ -1,11 +1,6 @@
 .container {
   position: relative;
   margin-top: 50px;
-  min-height: 100vh;
-}
-.absolute {
-  position: absolute;
-  top: 70px;
 }
 
 .top-right-image {
@@ -38,16 +33,12 @@ input[type="text"]::placeholder {
 }
 
 .employee-details {
-  margin-top: 12.5rem;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap; /* Allow employee cards to wrap to the next line */
-  justify-content: space-between; /* Distribute space between employee cards */
-  align-items: flex-start;
+  margin-top: 150px;
 }
 
 .employee-card {
   background-color: rgb(94, 94, 94, 0.2);
+
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
@@ -92,4 +83,9 @@ input[type="text"]::placeholder {
   color: #36a546;
   padding: 6px;
   border-radius: 50%;
+}
+
+.fixed {
+  position: fixed;
+  top: 70px;
 }
